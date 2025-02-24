@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu+Condensed&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  font-family: "Ubuntu Condensed", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h1 {
+  margin: 0;
+  padding: 15px 0;
+}
+
+header .contenedor {
+  box-shadow: 0px 8px 15px -8px rgba(181,0,181,1);
+  border-radius: 8px;
+  width: 100%;
+  background: rgb(249, 248, 248);
+}
+header .contenedor{
+  width: 100%;
+}
+li,ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* utilidades */
+.borde-rojo {
+  color: 1px solid red;
+}
+
+.contenedor-fuido {
+  margin: auto 150px;
+  width: 1200px;
+}
+
+main {
+  margin-top: 50px;
+}
+.caja {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+}
+.caja label {
+  margin-top: 5px;
+}
+.caja input {
+  margin-bottom: 5px;
+}
+.caja input {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid rgb(217, 209, 209);
+  margin-top: 8px;
+}
+.caja input:focus {
+  background-color: #ECFEFF;
+}
+.boton {
+  background-color: rgb(103, 103, 234);
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: transform 0.1s, background-color 0.1s;
+}
+.boton:hover {
+  background-color: blue;
+}
+.boton:active {
+  transform: scale(0.95); /* Se encoge ligeramente */
+  background-color: rgb(103, 103, 234); /* Cambia el color de fondo */
+}
+
+

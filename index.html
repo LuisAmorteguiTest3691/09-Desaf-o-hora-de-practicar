@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>  
+  <!-- cabecera -->
+  <header>
+    <div class="contenedor">
+      <div class="contenedor-fuido">
+        <div class="cabecera">
+          <h1 class="cabecera_titulo">* ALURA LATAM - LuisAmortegui *</h1>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- principal -->
+  <main class="principal">
+    <div class="contenedor">
+      <div class="contenedor-fuido">
+        <h2 class="principal_titulo">Juego de numeros</h2>
+        <p>Los valores de las funciones se muestran por consola</p>
+        <h3>Desafios</h3>
+        <ul>
+          <li>
+            <p>1. Crear una función que muestre "¡Hola, mundo!" en la consola.</p>
+          </li>
+          <li>
+            <p>2. Crear una función que reciba un nombre como parámetro y muestre "¡Hola, [nombre]!" en la consola.</p>
+            <div class="caja">
+              <label for="nombre">Ingrese su nombre</label>
+              <input type="text" name="nombre" class="nombreUsuario" placeholder="Ingrese su Nombre">
+              <p class="result-ejercicio-2"></p>
+              <button type="submit" class="boton boton-ejercicio-dos">Ver mensaje</button>
+            </div> 
+          </li>
+          <li>
+            <p>3. Crear una función que reciba un número como parámetro y devuelva el doble de ese número.</p>
+            <div class="caja">
+              <label for="numeroUno">Ingrese un numero</label>
+              <input type="text" name="numeroUno" class="numeroUno" placeholder="Ingrese un Numero">
+              <p class="result-ejercicio-3"></p>
+              <button type="submit" class="boton boton-ejercicio-tres">Ver mensaje</button>
+            </div>
+          </li>
+          <li>
+            <p>4. Crear una función que reciba tres números como parámetros y devuelva su promedio.</p>
+            <div class="caja ejercicio-4">
+              <!-- uno -->
+              <label for="a">Ingrese el Primer numero</label>
+              <input type="number" name="a" class="a" placeholder="Ingrese el Numero">
+              <!-- dos -->
+              <label for="b">Ingrese el Segundo numero</label>
+              <input type="number" name="b" class="b" placeholder="Ingrese el Numero">
+              <!-- tres -->
+              <label for="c">Ingrese el Tercer numero</label>
+              <input type="number" name="c" class="c" placeholder="Ingrese el Numero">
+              <!-- boton -->
+              <p class="result-ejercicio-4"></p>
+              <button type="submit" class="boton boton-ejercicio-4">Ver mensaje</button>
+            </div>
+          </li>
+          <li>
+            <p>5. Crear una función que reciba dos números como parámetros y devuelva el mayor de ellos.</p>
+            <div class="caja" id="ejercicio-5">
+              <!-- uno -->
+              <label for="a">Ingrese el Primer numero</label>
+              <input type="number" name="a" class="a" placeholder="Ingrese el Numero">
+              <!-- dos -->
+              <label for="b">Ingrese el Segundo numero</label>
+              <input type="number" name="b" class="b" placeholder="Ingrese el Numero">
+              <!-- boton -->
+              <p class="result-ejercicio-5"></p>
+              <button type="submit" class="boton boton-ejercicio-5">Ver mensaje</button>
+            </div>
+          </li>
+          <li>
+            <p>6. Crear una función que reciba un número como parámetro y devuelva el resultado de multiplicar ese número por sí mismo.</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
